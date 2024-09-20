@@ -1,0 +1,31 @@
+.loadingWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.loading {
+  color: var(--color-gong-purple);
+  font-size: var(--font-size-large);
+  font-family: var(--font-primary);
+}
+.errorWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.error {
+  color: var(--color-gong-purple);
+  font-size: var(--font-size-large);
+  font-family: var(--font-primary);
+}
+.heroTextWrapper {
+  margin: 20px 20px;
+}
+.heroTextWrapper h1 {
+  color: var(--color-gong-purple);
+  font-size: var(--font-size-xlarge);
+  font-family: var(--font-primary);
+}

@@ -1,0 +1,5 @@
+.nameEmail {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-primary);
+  margin-left: 10px;
+}

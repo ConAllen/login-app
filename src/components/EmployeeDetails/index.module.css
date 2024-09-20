@@ -1,0 +1,13 @@
+.node {
+  margin-left: 20px;
+  margin: 20px 20px;
+}
+
+.employee {
+  display: flex;
+  align-items: center;
+}
+
+.subordinates {
+  margin-left: 20px;
+}

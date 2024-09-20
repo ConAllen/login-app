@@ -1,0 +1,84 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f8fa;
+}
+
+.loginForm {
+  width: 320px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  font-weight: normal;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formGroup {
+  margin-bottom: 15px;
+  font-family: var(--font-primary);
+  letter-spacing: 1.5px;
+  font-weight: normal;
+}
+
+.formGroup label {
+  display: block;
+  font-size: var(--font-size-secondary);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: var(--font-size-secondary);
+}
+.formGroup input {
+  box-sizing: border-box;
+}
+.btnLogin {
+  width: 100%;
+  height: 50px;
+  padding: 12px;
+  background-color: var(--color-rose);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: var(--font-size-primary);
+  transition: background-color 0.3s ease;
+}
+
+.btnLogin:hover {
+  background-color: var(--color-lavendar);
+}
+
+.errorMessageWrapper {
+  height: 15px;
+  background-color: var(--color-rose);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  width: 70%;
+  margin: 10px auto;
+}
+.errorMessage {
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  margin-top: 10px;
+  font-family: var(--font-primary);
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}

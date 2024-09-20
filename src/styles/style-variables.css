@@ -1,0 +1,16 @@
+:root {
+  ---color-white: #ffffff;
+  --text-color: #2c3e50;
+  --color-rose: #ff2370;
+  --color-lavendar: #9069e7;
+  --color-gong-purple: #3e0675;
+  --color-purple: purple;
+  --color-cyan: #2afeb7;
+  --font-primary: sans-serif;
+
+  --font-size-large: 18px;
+  --font-size-xlarge: 28px;
+
+  --font-size-primary: 16px;
+  --font-size-secondary: 14px;
+}

@@ -1,0 +1,19 @@
+.node {
+  margin-left: 20px;
+  margin: 20px 20px;
+}
+
+.employee {
+  display: flex;
+  align-items: center;
+}
+
+.nameEmail {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-primary);
+  margin-left: 10px;
+}
+
+.subordinates {
+  margin-left: 20px;
+}

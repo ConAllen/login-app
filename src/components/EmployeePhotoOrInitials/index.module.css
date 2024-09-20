@@ -1,0 +1,39 @@
+.photo,
+.initialsCircle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
+  background-color: var(--color-white);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.photo {
+  object-fit: cover;
+}
+
+.initialsCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-primary);
+  font-weight: 600;
+  color: var(--color-dark);
+}
+
+.managerCircle {
+  border: 2px solid var(--color-purple);
+}
+
+.employeeCircle {
+  border: 2px solid var(--color-cyan);
+}
+
+.photo:hover,
+.initialsCircle:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
